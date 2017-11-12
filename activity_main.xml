@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/udacity_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/udacity"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/udacity_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:background="#033c52"
+        android:text="Udacity"
+        android:fontFamily="sans-serif"
+        android:textColor="#C5CAE9"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/street_address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:background="#09546d"
+        android:text="2465 Latham St"
+        android:fontFamily="sans-serif"
+        android:textColor="#C5CAE9"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/city_address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:background="#09546d"
+        android:text="Mountain View, CA 94043"
+        android:fontFamily="sans-serif"
+        android:textColor="#C5CAE9"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/phone_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#09546d"
+        android:fontFamily="sans-serif"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:text="650-555-5555"
+        android:phoneNumber="true"
+        android:autoLink="phone"
+        android:clickable="true"
+        android:textColor="#C5CAE9"
+        android:textSize="14sp" />
+
+</LinearLayout>
+
